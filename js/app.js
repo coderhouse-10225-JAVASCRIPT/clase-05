@@ -9,6 +9,13 @@ console.log(persona1.email);
 
 const persona2 = new Persona("Alejandro", "M", 25, "ale@mail.com");
 
-if (persona2.nombre == persona1.nombre) {
-    
+/*if (persona2.nombre == persona1.nombre) {
+
 }
+*/
+
+const persona3 = new cPersona("Aleja", "Med", 30);
+
+persona1.hablar();
+persona2.hablar();
+persona3.hablar();
